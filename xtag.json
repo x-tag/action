@@ -1,0 +1,27 @@
+{
+  "name": "action",
+  "tagName": "x-action",
+  "version": "0.0.0",
+  "author": "Arron Schaar",
+  "description": "Declaritive way to execute a method on target custom elements",
+  "demo": "demo/index.html",
+  "compatibility": {
+    "firefox": 5,
+    "chrome": 4,
+    "ie": 9,
+    "opera": 12,
+    "android": 2.1,
+    "ios": 4
+  },
+  "documentation": {
+    "description": "Declaritive way to execute a method on a given target element",
+    "attributes": {
+      "target": "Selector used to find elements.",
+      "action": "Method to call on found elements."
+    },
+    "events": {},
+    "methods": {},
+    "getters": {},
+    "setters": {}
+  }
+}
