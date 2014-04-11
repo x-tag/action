@@ -1,33 +1,24 @@
-# About Action
+## About Action
 
+Declaritive way of mapping users actions to custom element methods
 
-# Example
-
-```
-// describe usage
-
+## Example
 
 ```
+// Wrap an element that responds to a "tap" with a x-action and it will execute
 
-# Download it
-
-
-
-# Dev Setup
-
-```
-Fork this repo, rename it, then clone it.
-
-$ npm install	// install bower tasks
-$ bower install	// install components
-$ grunt build   // build
-$ grunt bump-push  // bump the version number, tag it and push to origin master
+<x-action target="x-slidebox" action="next"><button>Next Slide</button></x-action>
 
 ```
 
+## Download it
+
+```
+$ bower install x-tag-action
+```
 
 
-# Links
+## Links
 
 [Yeoman X-Tag Generator](https://github.com/x-tag/x-tag-generator)
 
