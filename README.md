@@ -1,6 +1,6 @@
 ## About Action
 
-Declaritive way of mapping users actions to custom element methods
+Declarative way of mapping users actions to custom element methods
 
 ## Example
 
