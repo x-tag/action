@@ -1,17 +1,17 @@
 {
   "name": "Action",
   "description": "Declaritive way to execute a method on target custom elements",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Arron Schaar",
   "keywords": [
-  	"Element",
+    "Element",
     "web-components",
     "x-tag"
   ],
   "main": [
-    "src/action.js"
-    ,"src/action.css"
-    ,"src/action.styl"
+    "src/action.js",
+    "src/action.css",
+    "src/action.styl"
   ],
   "dependencies": {
     "x-tag-core": "*"
