@@ -1,6 +1,6 @@
 {
   "name": "action",
-  "description": "Declaritive way to execute a method on target custom elements",
+  "description": "Declarative way to execute a method on target custom elements",
   "version": "0.0.1",
   "author": "Arron Schaar",
   "dependencies": {},

@@ -3,7 +3,7 @@
   "tagName": "x-action",
   "version": "0.0.1",
   "author": "Arron Schaar",
-  "description": "Declaritive way to execute a method on target custom elements",
+  "description": "Declarative way to execute a method on target custom elements",
   "demo": "demo/index.html",
   "compatibility": {
     "firefox": 5,
