@@ -20,7 +20,7 @@ $ bower install x-tag-action
 
 ## Links
 
-[Yeoman X-Tag Generator](https://github.com/x-tag/x-tag-generator)
+[Yeoman X-Tag Generator](https://github.com/x-tag/yo-x-tag-generator)
 
 [X-Tags Docs](http://x-tags.org/docs)
 
