@@ -23,7 +23,7 @@
 
   <x-alert>HI</x-alert>
 
-  <x-action target="x-alert" action="alert"><button>Alert!</button></x-action>
+  <x-action target="x-alert" event="alert" action="alert"><button>Alert!</button></x-action>
 
 </body>
 
@@ -32,12 +32,12 @@
   xtag.register('x-alert', {
     methods: {
       alert: function(){
-        alert(this.textContent);
+        alert('Method-invoked Action');
       }
     }
   });
-  document.addEventListener('DOMComponentsLoaded', function(){
-
+  document.addEventListener('alert', function(){
+    alert('Event-invoked Action');
   });
 
 </script>
