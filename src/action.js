@@ -1,7 +1,6 @@
 (function(){
 
   function executeTarget(e){
-    console.log(e)
     var targets = xtag.query(document, this.target);
     var method = this.method;
     var event = this.event;
