@@ -1,7 +1,7 @@
 {
   "name": "action",
   "tagName": "x-action",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Arron Schaar",
   "description": "Declarative way to execute a method on target custom elements",
   "demo": "demo/index.html",
