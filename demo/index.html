@@ -6,10 +6,10 @@
   <title>Action - X-Tag</title>
 
   <link rel="stylesheet" type="text/css" href="x-tag-components.css"/>
-  <link rel="stylesheet" type="text/css" href="../src/action.css"/>
+  <link rel="stylesheet" type="text/css" href="../src/main.css"/>
 
   <script type="text/javascript" src="x-tag-components.js"></script>
-  <script type="text/javascript" src="../src/action.js"></script>
+  <script type="text/javascript" src="../src/main.js"></script>
 
 
   <style type="text/css">
@@ -23,7 +23,7 @@
 
   <x-alert>HI</x-alert>
 
-  <x-action target="x-alert" event="alert" method="alert"><button>Alert!</button></x-action>
+  <x-action target="x-alert" event="alert" method="alert" params="1, true"><button>Alert!</button></x-action>
 
 </body>
 
@@ -32,12 +32,12 @@
   xtag.register('x-alert', {
     methods: {
       alert: function(){
-        alert('Method-invoked Action');
+        alert('Method invoked: action(), with parameters [' + Array.prototype.join.call(arguments) + ']');
       }
     }
   });
   document.addEventListener('alert', function(){
-    alert('Event-invoked Action');
+    alert('Event invoked: onalert');
   });
 
 </script>

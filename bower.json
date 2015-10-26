@@ -1,17 +1,15 @@
 {
-  "name": "Action",
-  "description": "Declarative way to execute a method on target custom elements",
-  "version": "0.0.5",
+  "name": "x-tag-action",
+  "description": "Declarative way to execute a methods or fire events on target elements",
+  "version": "0.0.6",
   "author": "Arron Schaar",
   "keywords": [
-    "Element",
     "web-components",
     "x-tag"
   ],
   "main": [
-    "src/action.js",
-    "src/action.css",
-    "src/action.styl"
+    "src/main.js",
+    "src/main.css"
   ],
   "dependencies": {
     "x-tag-core": "*"
