@@ -7,7 +7,7 @@
     var params = node.xtag.params || [];
     var targets = xtag.query(document, node.target);
     (targets[0] ? targets : [node]).forEach(function(target){
-      if (target[method]) target[method].apply(null, params);
+      if (target[method]) target[method].apply(target, params);
       if (event) xtag.fireEvent(target, event, {
         detail: {
           actionElement: node

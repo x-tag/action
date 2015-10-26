@@ -1,6 +1,6 @@
 {
   "name": "x-appbar",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.4",
