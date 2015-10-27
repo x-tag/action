@@ -4,10 +4,10 @@
     var node = this;
     var event = node.event;
     var method = node.method;
-    var params = node.xtag.params || [];
+    var args = node.xtag.args || [];
     var targets = xtag.query(document, node.target);
     (targets[0] ? targets : [node]).forEach(function(target){
-      if (target[method]) target[method].apply(target, params);
+      if (target[method]) target[method].apply(target, args);
       if (event) xtag.fireEvent(target, event, {
         detail: {
           actionElement: node
@@ -24,10 +24,10 @@
       event: { attribute: {}},
       target: { attribute: {}},
       method: { attribute: {}},
-      params: {
+      args: {
         attribute: {},
-        set: function(params){
-          this.xtag.params = JSON.parse('[' + params + ']');
+        set: function(args){
+          this.xtag.args = JSON.parse('[' + args + ']');
         }
       },
     },
