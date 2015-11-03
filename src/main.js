@@ -16,6 +16,7 @@
     });
   }
 
+  var replacer = /'/g;
   xtag.register('x-action', {
     events: {
       'tap': executeTarget
@@ -27,7 +28,7 @@
       args: {
         attribute: {},
         set: function(args){
-          this.xtag.args = JSON.parse('[' + args + ']');
+          this.xtag.args = JSON.parse('[' + args.replace(replacer, '"') + ']');
         }
       },
     },

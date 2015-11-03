@@ -1,7 +1,7 @@
 {
   "name": "x-tag-action",
   "description": "Declarative way to execute a methods or fire events on target elements",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Arron Schaar",
   "keywords": [
     "web-components",
